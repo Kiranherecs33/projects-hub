@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hurst Enterprises</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <header id="page-header">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="contact-info">
+                    <a href="mailto:alex@hurstenterprises.llc"><i class="fas fa-envelope"></i>
+                        alex@hurstenterprises.llc</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Navigation -->
+        <nav class="main-nav" id="main-navbar">
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="/hero/logo/Hurst_logo.png" alt="Hurst Enterprises Logo">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolios</a></li>
+                    <li><a href="contact.html" class="active">Contacts</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-outline">Sign In</a>
+                    <a href="#" class="btn btn-primary">Sign Up</a>
+                </div>
+                <button class="mobile-menu-toggle" id="mobile-menu-toggle-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Navigation Panel -->
+    <div class="mobile-nav-panel" id="mobile-nav">
+        <button class="mobile-menu-close" id="mobile-menu-close-btn">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="mobile-nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolios</a></li>
+            <li><a href="contact.html" class="active">Contacts</a></li>
+        </ul>
+        <div class="mobile-auth-buttons">
+            <a href="#" class="btn btn-outline">Sign In</a>
+            <a href="#" class="btn btn-primary">Sign Up</a>
+        </div>
+    </div>
+    <section class="page-banner-section">
+        <div class="banner-background-animation">
+
+            <div class="wave-dots"></div>
+        </div>
+        <div class="container banner-content-container">
+            <div class="banner-text">
+                <h1>Contact Us</h1>
+            </div>
+            <div class="banner-breadcrumbs">
+                <a href="index.html">HOME</a>
+                <span class="breadcrumb-separator"><i class="fas fa-chevron-right"></i></span>
+                <span>Contact us</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us-section">
+        <div class="container contact-grid">
+            <!-- Left Side: Text Content & Details -->
+            <div class="contact-info-left animate-on-scroll-group">
+                <h2 class="animate-text-item-fade">Contact us</h2>
+                <p class="animate-text-item-fade">We're here to help! Give us a call or drop by anytime. We strive to
+                    answer all inquiries within 24 hours on business days and are happy to assist with your questions.
+                </p>
+
+                <div class="contact-detail-item animate-text-item-fade">
+                    <div class="contact-detail-icon">
+                        <i class="fas fa-globe-americas"></i> <!-- Globe Icon -->
+                    </div>
+                    <div class="contact-detail-text">
+                        <h4>Our Address:</h4>
+                        <p>609 Deep Valley Dr,<br>suite#200 Rolling Hills Estates CA 90274<br>Ph# +7079868150</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail-item animate-text-item-fade">
+                    <div class="contact-detail-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-detail-text">
+                        <h4>Our Mailbox:</h4>
+                        <p><a href="mailto:alex@hurstenterprises.llc">alex@hurstenterprises.llc</a></p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Right Side: Contact Form -->
+<div class="contact-form-right">
+    <h3>Ready to Get Started?</h3>
+    <p class="form-note">Your email address will not be published. Required fields are marked *</p>
+    <!-- YEH LINE CHECK KAREIN -->
+    <form action="#" method="POST" class="contact-form" id="mainContactPageForm"> 
+        <div class="form-group">
+            <input type="text" id="contactPageName" name="sender_name" placeholder="Your Name *" required>
+        </div>
+        <div class="form-group">
+            <input type="email" id="contactPageEmail" name="sender_email" placeholder="Your Email *" required>
+        </div>
+        <div class="form-group">
+            <textarea id="contactPageMessage" name="message_content" rows="6" placeholder="Message..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-contact-submit">SEND MESSAGE</button>
+    </form>
+</div>
+        </div>
+    </section>
+
+
+
+    <section class="map-section">
+        <div class="map-container">
+            <!-- GOOGLE MAPS -->
+
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.8908014313074!2d-118.37541193026182!3d33.77089382451036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd4b94e3608daf%3A0xa3aa42b1c9de80!2s609%20Deep%20Valley%20Dr%20Suite%20200%2C%20Rolling%20Hills%20Estates%2C%20CA%2090274%2C%20USA!5e0!3m2!1sen!2s!4v1750422793983!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer class="site-footer-darkblue">
+        <div class="container footer-main-container">
+            <!-- Top Row: Newsletter Signup and Navigation Links -->
+            <div class="footer-top-row">
+                <div class="footer-newsletter">
+                    <h3>We bake emails too. <br>Sign up to receive the latest news.</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Address" required>
+                        <button type="submit" aria-label="Subscribe"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                    <div class="footer-social-icons-left">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-nav-columns">
+                    <div class="footer-nav-col">
+                        <h4>GET IN TOUCH</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-col">
+                        <h4>COMPANY</h4>
+                        <ul>
+                            <li><a href="portfolio.html">Portfolios</a></li>
+                            <li><a href="contact.html">Contacts</a></li>
+                            <li><a href="#">Terms And Conditions</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright-section -->
+            <div class="footer-bottom-row">
+                <div class="footer-copyright-payment">
+                    <div class="payment-methods-inline">
+                        <img src="/hero/mastercard.png" alt="Mastercard">
+                        <img src="/hero/visa.jpg" alt="Visa">
+                        <img src="/hero/america ex.png" alt="American Express">
+                        <img src="/hero/disc.jpg" alt="Discover">
+                        <img src="/hero/pay.png" alt="PayPal">
+                        <img src="/hero/amazon.png" alt="Amazon Pay">
+
+                    </div>
+                    <p class="copyright-text-inline">Copyright © 2025 Hurst Enterprises. All Rights Reserved.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+    <button id="scrollToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
